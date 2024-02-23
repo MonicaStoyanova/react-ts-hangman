@@ -26,14 +26,14 @@ const KEYS = [
     "x",
     "y",
     "z",
-]
+];
 
 type KeyboardProps = {
     activeLetters: string[]
     disabled?: boolean
     inactiveLetters: string[]
     addGuessedLetter: (letter: string) => void
-}
+};
 
 const Keyboard = ({ activeLetters, disabled = false, inactiveLetters, addGuessedLetter }: KeyboardProps) => {
     return (

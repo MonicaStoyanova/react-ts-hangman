@@ -2,7 +2,7 @@ type HangmanWordProps = {
     guessedLetters: string[],
     wordToGuess: string
     reveal?: boolean
-}
+};
 
 const HangmanWord = ({ guessedLetters, wordToGuess, reveal = false }: HangmanWordProps) => {
 
